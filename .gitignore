@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+.venv/
+venv/
+ENV/
+*.sqlite3
+uploads/
+
+# Flask
+instance/
+.webassets-cache
+
+# Node
+node_modules/
+build/
+dist/
+
+# React
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# VSCode/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Misc
+*.bak
+*.swp
+*.tmp
+
+# Test/coverage
+coverage/
+*.cover
+*.coverage
+*.egg-info/
+
+# Sample/test data
+*.csv
+!sample.csv
+!sample_comprehensive.csv

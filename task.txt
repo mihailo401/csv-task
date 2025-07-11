@@ -1,0 +1,34 @@
+🧪 The Challenge: “Data Quality Gateway” Prototype
+You're building a core module for our new SaaS platform in the German real estate sector. The module is responsible for validating uploaded property master data (Immobilien-Stammdaten) via CSV.
+Your goal is to:
+Build a minimal prototype that allows a user to upload a CSV file and validates the data against predefined rules.
+The frontend should allow uploading, the backend should validate and return structured feedback, and the frontend should display it.
+  Requirements
+ ️ File Upload
+Accept only .csv files
+Reject or warn on other file types
+ ️ Validation Logic (implement all 4 checks below)
+Required Columns Present: All expected columns must be included in the uploaded CSV.
+No Missing Required Fields: Every row must contain a value for required columns (Objekt-ID, Straße, PLZ, Ort).
+Format Check for Specific Fields:
+PLZ: Must be exactly 5 digits
+Baujahr: Must be a 4-digit number between 1850 and the current year
+Uniqueness Constraint: Objekt-ID values must be unique across the entire file.
+ ️ Result Output
+Return a structured response (e.g., JSON) listing:
+Row number
+Column name
+Error message
+Bonus: Display errors clearly in the frontend (list or table view).
+A sample file is attached
+  Scope & Tech
+We want to see:
+Clean, modular, understandable code
+Thoughtful architecture with clear decisions
+Clear communication (in code, commit messages, demo)
+User-centric approach: thinking about real users uploading files, error states, and workflows, not just the happy path
+Ownership mindset: handling edge cases gracefully, clear “what’s next” ideas during the demo, and not leaving obvious rough edges unaddressed
+Tech:
+Frontend: React (Typescript) + Tailwind CSS
+Backend: Python (Flask)
+No need for database integration

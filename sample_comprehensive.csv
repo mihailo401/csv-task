@@ -1,0 +1,13 @@
+Objekt-ID,Straße,PLZ,Ort,Baujahr,Wohnfläche,Zimmeranzahl,Kommentar
+A1234,Musterstraße 1,10115,Berlin,1998,85.5,3,Valid data
+B5678,Musterweg 5,80331,München,1875,120.0,4,Invalid Baujahr (1875 < 1850)
+C9999,,50667,Köln,2010,95.2,3,Missing required field (Straße)
+D1234,Teststraße 3,ABCDE,Hamburg,1840,75.8,2,Invalid PLZ format (ABCDE)
+E5555,Beispielstraße 9,30159,Hannover,2005,110.3,4,Valid data
+A1234,Duplicate-ID-Straße 7,70173,Stuttgart,1990,88.7,3,Duplicate Objekt-ID (A1234)
+F7777,Valid-Straße 12,40213,Düsseldorf,2025,92.1,3,Invalid Baujahr (2025 > current year)
+G8888,Another-Straße 15,90402,Nürnberg,,65.4,2,Missing Baujahr (optional field)
+H9999,Last-Straße 20,55116,Mainz,1950,78.9,3,Valid data
+I1111,Empty-PLZ-Straße 25,,Frankfurt,1985,82.3,3,Missing PLZ (required field)
+J2222,Invalid-Baujahr-Straße 30,60311,Frankfurt,abc,70.1,2,Invalid Baujahr format (abc)
+K3333,Valid-Final-Straße 35,80335,München,2000,105.6,4,Valid data
