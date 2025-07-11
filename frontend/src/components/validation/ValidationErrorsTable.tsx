@@ -1,5 +1,5 @@
 import React from 'react';
-import { ValidationError } from '../types';
+import { ValidationError } from '../../types';
 
 interface ValidationErrorsTableProps {
   errors: ValidationError[];

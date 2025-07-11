@@ -1,5 +1,5 @@
 import React from 'react';
-import { ValidationResult } from '../types';
+import { ValidationResult } from '../../types';
 
 interface ValidationMessageProps {
   result: ValidationResult;

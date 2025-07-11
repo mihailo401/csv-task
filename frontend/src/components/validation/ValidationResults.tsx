@@ -1,10 +1,10 @@
 import React from 'react';
-import { ValidationResult } from '../types';
+import { ValidationResult } from '../../types';
 import ValidationSummary from './ValidationSummary';
 import ValidationErrorsTable from './ValidationErrorsTable';
 import ValidationColumns from './ValidationColumns';
 import ValidationMessage from './ValidationMessage';
-import StatusBadge from './StatusBadge';
+import StatusBadge from '../StatusBadge';
 
 interface ValidationResultsProps {
   result: ValidationResult;

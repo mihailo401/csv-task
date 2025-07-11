@@ -1,9 +1,9 @@
 export { default as FileUploadArea } from './FileUploadArea';
-export { default as ValidationResults } from './ValidationResults';
-export { default as ValidationSummary } from './ValidationSummary';
-export { default as ValidationMessage } from './ValidationMessage';
-export { default as ValidationErrorsTable } from './ValidationErrorsTable';
-export { default as ValidationColumns } from './ValidationColumns';
+export { default as ValidationResults } from './validation/ValidationResults';
+export { default as ValidationSummary } from './validation/ValidationSummary';
+export { default as ValidationMessage } from './validation/ValidationMessage';
+export { default as ValidationErrorsTable } from './validation/ValidationErrorsTable';
+export { default as ValidationColumns } from './validation/ValidationColumns';
 export { default as StatusBadge } from './StatusBadge';
 export { default as StatCard } from './StatCard';
 export { default as ErrorDisplay } from './ErrorDisplay'; 

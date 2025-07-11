@@ -1,6 +1,6 @@
 import React from 'react';
-import { ValidationResult } from '../types';
-import StatCard from './StatCard';
+import { ValidationResult } from '../../types';
+import StatCard from '../StatCard';
 
 interface ValidationSummaryProps {
   result: ValidationResult;
